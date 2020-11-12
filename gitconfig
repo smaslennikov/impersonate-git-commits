@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+   email = gabrielfok128@gmail.com
+   name = Gabriel Fok
+[remote "origin"]
+	url = git@github.com:smaslennikov/faking-gabriel-fok.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
